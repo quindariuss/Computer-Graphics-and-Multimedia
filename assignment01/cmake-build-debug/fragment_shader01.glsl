@@ -4,5 +4,7 @@ out vec4 fColor;
 
 void main()
 {
-    fColor = vec4(1.0, 1.0, 0.0, 1.0);
+    // Dot Color
+    // Cant add
+    fColor = vec4(0.41, 0.35, 0.80, 1.0);
 }
