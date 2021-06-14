@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.17)
 project(m01_first_program)
 
 
-link_libraries(cs4722 cs4722external glfw3dll opengl32 glu32)
+link_libraries(cs4722 cs4722external glfw3 opengl32 glu32)
 
 set(CMAKE_CXX_STANDARD 20)
 
