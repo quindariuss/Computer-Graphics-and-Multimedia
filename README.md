@@ -1,4 +1,4 @@
-# Computer-Graphics-and-Multimedia
+# Computer Graphics and Multimedia
 ## Kennesaw State University
 ## Professor Ben
 
