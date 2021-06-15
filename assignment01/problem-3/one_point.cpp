@@ -30,7 +30,7 @@ init(void)
 void
 display(void)
 {
-    static const float gray50[] = { 0.5f, 0.5f, 0.5f, 1.0f };
+    static const float gray50[] = { 218.0/255, 165.0/255, 32.0/255, 255.0,255 };
 
     glClearBufferfv(GL_COLOR, 0, gray50);
 
