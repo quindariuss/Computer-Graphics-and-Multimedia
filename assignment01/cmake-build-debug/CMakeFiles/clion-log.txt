@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Computer-Graphics-and-Multimedia\assignment01
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug
+MinGW not found at: C:\MinGW Configure Disable profile
+
+Cannot get compiler information:
+	Cannot run program "C:\MinGW\bin\g++.exe" (in directory "C:\Computer-Graphics-and-Multimedia\assignment01\cmake-build-debug"): CreateProcess error=2, The system cannot find the file specified
