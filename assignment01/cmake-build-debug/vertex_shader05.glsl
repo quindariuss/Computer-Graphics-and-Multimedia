@@ -1,5 +1,6 @@
 
 #version 330 core
+//Still nothing happens when you change the z to 1.5 and the pixel is still visible
 
 
 
