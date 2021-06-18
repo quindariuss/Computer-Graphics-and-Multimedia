@@ -1,4 +1,4 @@
-# Install script for directory: C:/Computer-Graphics-and-Multimedia/assignment02
+# Install script for directory: C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

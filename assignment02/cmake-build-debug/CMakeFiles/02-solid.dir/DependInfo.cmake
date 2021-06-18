@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Computer-Graphics-and-Multimedia/assignment02/02-solid/solid.cpp" "C:/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/02-solid.dir/02-solid/solid.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/02-solid/solid.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/02-solid.dir/02-solid/solid.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

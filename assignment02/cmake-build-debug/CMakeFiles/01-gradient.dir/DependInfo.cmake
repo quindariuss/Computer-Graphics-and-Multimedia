@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Computer-Graphics-and-Multimedia/assignment02/01-gradient/gradient.cpp" "C:/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/01-gradient.dir/01-gradient/gradient.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/01-gradient/gradient.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/01-gradient.dir/01-gradient/gradient.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

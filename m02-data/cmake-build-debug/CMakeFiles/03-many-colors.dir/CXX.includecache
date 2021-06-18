@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Common/cs4722/load_shaders.h
+glad/gl.h
+-
+
+../Common/cs4722/x11.h
+GLFW/glfw3.h
+-
+sstream
+-
+iostream
+-
+GLM/vec4.hpp
+-
+
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/03-many-colors/many_colors.cpp
+glad/gl.h
+-
+GLM/glm.hpp
+-
+GLFW/glfw3.h
+-
+cs4722/x11.h
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/03-many-colors/cs4722/x11.h
+cs4722/load_shaders.h
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/03-many-colors/cs4722/load_shaders.h
+

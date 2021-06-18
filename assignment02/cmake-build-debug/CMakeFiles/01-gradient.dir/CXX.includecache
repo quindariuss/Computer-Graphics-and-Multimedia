@@ -30,7 +30,7 @@ iostream
 GLM/vec4.hpp
 -
 
-C:/Computer-Graphics-and-Multimedia/assignment02/01-gradient/gradient.cpp
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/01-gradient/gradient.cpp
 glad/gl.h
 -
 GLM/glm.hpp
@@ -38,7 +38,7 @@ GLM/glm.hpp
 GLFW/glfw3.h
 -
 cs4722/x11.h
-C:/Computer-Graphics-and-Multimedia/assignment02/01-gradient/cs4722/x11.h
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/01-gradient/cs4722/x11.h
 cs4722/load_shaders.h
-C:/Computer-Graphics-and-Multimedia/assignment02/01-gradient/cs4722/load_shaders.h
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/01-gradient/cs4722/load_shaders.h
 

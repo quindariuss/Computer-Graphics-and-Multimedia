@@ -7,15 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../01-gradient/fragment_shader_gradient.glsl"
-  "../01-gradient/vertex_shader_gradient.glsl"
-  "../02-solid/fragment_shader_solid.glsl"
-  "../02-solid/vertex_shader_solid.glsl"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.19.2/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.19.2/CMakeSystem.cmake"
   "C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/CMakeCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake"
@@ -40,6 +31,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19/Modules/ProcessorCount.cmake"
+  "../01-gradient/fragment_shader_gradient.glsl"
+  "../01-gradient/vertex_shader_gradient.glsl"
+  "../02-solid/fragment_shader_solid.glsl"
+  "../02-solid/vertex_shader_solid.glsl"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.19.2/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.19.2/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:

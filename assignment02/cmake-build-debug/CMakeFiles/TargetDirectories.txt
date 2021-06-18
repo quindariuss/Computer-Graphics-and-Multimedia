@@ -1,4 +1,4 @@
-C:/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/01-gradient.dir
-C:/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/02-solid.dir
-C:/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/01-gradient.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/02-solid.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment02/cmake-build-debug/CMakeFiles/edit_cache.dir

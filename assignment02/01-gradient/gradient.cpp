@@ -10,7 +10,7 @@
 #include "cs4722/load_shaders.h"
 
 
-const auto  number_of_vertices = 6;
+const auto  number_of_vertices = 8;
 
 void
 init1(void)
@@ -25,19 +25,27 @@ init1(void)
     const auto delta = 2 * M_PI / number_of_vertices;
     const auto radius = .8f;
     glm::vec4 positions[] = {
+            glm::vec4(0,0,0,1),
             glm::vec4(radius, 0, 0, 1),
             glm::vec4(radius*cos(M_PI/3), radius*sin(M_PI/3), 0, 1),
             glm::vec4(radius*cos(2*M_PI/3), radius*sin(2*M_PI/3), 0, 1),
             glm::vec4(-radius, 0, 0, 1),
             glm::vec4(radius*cos(4*M_PI/3), radius*sin(4*M_PI/3), 0, 1),
             glm::vec4(radius*cos(5*M_PI/3), radius*sin(5*M_PI/3), 0, 1),
+            glm::vec4(radius,0,0,1)
     };
 
 
 
-    const cs4722::color colors[number_of_vertices] = { cs4722::x11::white,
-       cs4722::x11::blue, cs4722::x11::black, cs4722::x11::yellow,
-       cs4722::x11::gray, cs4722::x11::orange,
+    const cs4722::color colors[number_of_vertices] = {
+            cs4722::x11::blue, //one center
+            cs4722::x11::white,  //two same as last vert
+            cs4722::x11::yellow, //three
+            cs4722::x11::black,//four
+            cs4722::x11::orange,//five most left
+            cs4722::x11::gray,//six
+            cs4722::x11::green,//seven
+            cs4722::x11::white,//eight bottom left same as two
     };
 	
 
@@ -74,7 +82,7 @@ display(void)
 
     glClearBufferfv(GL_COLOR, 0, cs4722::x11::gray50.as_float());
 
-     glDrawArrays(GL_POINTS, 0, number_of_vertices);
+     glDrawArrays(GL_TRIANGLE_FAN, 0, number_of_vertices);
 }
 
 
@@ -114,8 +122,10 @@ main(int argc, char** argv)
     while (!glfwWindowShouldClose(window))
     {
         display();
+
         glfwSwapBuffers(window);
         glfwPollEvents();
+
     }
 
     glfwDestroyWindow(window);
