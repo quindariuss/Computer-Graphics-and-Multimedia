@@ -1,0 +1,7 @@
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/cmake-build-debug/CMakeFiles/05-shapes.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/cmake-build-debug/CMakeFiles/04-square.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/cmake-build-debug/CMakeFiles/03-many-colors.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/cmake-build-debug/CMakeFiles/02-many-points.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/cmake-build-debug/CMakeFiles/06-coordinate-orientation.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/cmake-build-debug/CMakeFiles/rebuild_cache.dir

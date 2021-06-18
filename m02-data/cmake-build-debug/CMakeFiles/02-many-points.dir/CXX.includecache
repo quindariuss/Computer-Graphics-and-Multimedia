@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Common/cs4722/load_shaders.h
+glad/gl.h
+-
+
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/02-many-points/many_points.cpp
+iostream
+-
+glad/gl.h
+-
+GLM/glm.hpp
+-
+GLFW/glfw3.h
+-
+cs4722/load_shaders.h
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m02-data/02-many-points/cs4722/load_shaders.h
+
