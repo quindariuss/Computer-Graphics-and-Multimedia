@@ -47,7 +47,7 @@ init1(void)
 
 	// All corners have consistent colors, but diagonal stripe is still evident
     const cs4722::color colors3[number_of_vertices] = { cs4722::x11::white,
-     cs4722::x11::blue, cs4722::x11::black, cs4722::x11::blue,
+     cs4722::x11::blue, cs4722::x11::blue, cs4722::x11::blue,
      cs4722::x11::white, cs4722::x11::orange,
    };
     // { ll, ur, ul, ur, ll, lr };
@@ -84,13 +84,13 @@ display(void)
     glClearBufferfv(GL_COLOR, 0, cs4722::x11::gray50.as_float());
 
    
-    //glDrawArrays(GL_POINTS, 0, NumVertices);
-    //glDrawArrays(GL_LINES, 0, NumVertices);
-    //glDrawArrays(GL_LINE_STRIP, 0, NumVertices);
-    //glDrawArrays(GL_LINE_LOOP, 0, NumVertices);
+//    glDrawArrays(GL_POINTS, 0, number_of_vertices);
+//    glDrawArrays(GL_LINES, 0, number_of_vertices);
+//    glDrawArrays(GL_LINE_STRIP, 0, number_of_vertices);
+//    glDrawArrays(GL_LINE_LOOP, 0, number_of_vertices);
     glDrawArrays(GL_TRIANGLES, 0, number_of_vertices);
-    //glDrawArrays(GL_TRIANGLE_STRIP, 0, NumVertices);
-    //glDrawArrays(GL_TRIANGLE_FAN, 0, NumVertices);
+//    glDrawArrays(GL_TRIANGLE_STRIP, 0, number_of_vertices);
+//    glDrawArrays(GL_TRIANGLE_FAN, 0, number_of_vertices);
 }
 
 static void error_callback(int error, const char* description)

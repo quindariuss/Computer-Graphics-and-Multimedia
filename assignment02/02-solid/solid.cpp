@@ -10,7 +10,7 @@
 #include "cs4722/load_shaders.h"
 
 
-const auto  number_of_vertices = 6;
+const auto  number_of_vertices = 9;
 
 void
 init1(void)
@@ -26,19 +26,31 @@ init1(void)
 
 
     glm::vec4 positions[] = {
-            glm::vec4(radius,0, 0, 1),
+            glm::vec4(0,0,0,0), // center
+            glm::vec4(radius,0, 0, 1), // most right
+            glm::vec4(radius*cos(M_PI/3), radius*sin(M_PI/3), 0, 1),
             glm::vec4(radius*cos(M_PI/3), radius*sin(M_PI/3), 0, 1),
             glm::vec4(radius*cos(2*M_PI/3), radius*sin(2*M_PI/3), 0, 1),
-            glm::vec4(-radius, 0, 0, 1),
+            glm::vec4(-radius, 0, 0, 1), // most left
             glm::vec4(radius*cos(4*M_PI/3), radius*sin(4*M_PI/3), 0, 1),
             glm::vec4(radius*cos(5*M_PI/3), radius*sin(5*M_PI/3), 0, 1),
+            glm::vec4(radius,0, 0, 1),
+            glm::vec4(0,0,0,0),
+
     };
 
 
 
-    const cs4722::color colors[number_of_vertices] = { cs4722::x11::white,
-       cs4722::x11::blue, cs4722::x11::black, cs4722::x11::yellow,
-       cs4722::x11::gray, cs4722::x11::orange,
+    const cs4722::color colors[number_of_vertices] = {
+            cs4722::x11::white, //center
+            cs4722::x11::white, //most right
+            cs4722::x11::black,
+            cs4722::x11::yellow,
+             cs4722::x11::gray,
+            cs4722::x11::orange,
+            cs4722::x11::navajo_white,
+            cs4722::x11::purple,
+            cs4722::x11::gray,
     };
 	
 
@@ -76,7 +88,7 @@ display(void)
     glClearBufferfv(GL_COLOR, 0, cs4722::x11::gray50.as_float());
 
 
-     glDrawArrays(GL_POINTS, 0, number_of_vertices);
+     glDrawArrays(GL_TRIANGLE_STRIP, 0, number_of_vertices);
 
 }
 
