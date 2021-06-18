@@ -89,6 +89,7 @@ static void error_callback(int error, const char* description)
 int
 main(int argc, char** argv)
 {
+
     glfwSetErrorCallback(error_callback);
     /* Initialize the library */
     if (!glfwInit())

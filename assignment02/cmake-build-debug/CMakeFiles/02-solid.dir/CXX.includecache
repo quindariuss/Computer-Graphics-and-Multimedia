@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Common/cs4722/cs4722_exception.h
+exception
+-
+cstdio
+-
+
+../Common/cs4722/load_shaders.h
+string
+-
+glad/gl.h
+-
+cs4722_exception.h
+../Common/cs4722/cs4722_exception.h
+
+../Common/cs4722/x11.h
+GLFW/glfw3.h
+-
+sstream
+-
+iostream
+-
+GLM/vec4.hpp
+-
+
+C:/Computer-Graphics-and-Multimedia/assignment02/02-solid/solid.cpp
+glad/gl.h
+-
+GLM/glm.hpp
+-
+GLFW/glfw3.h
+-
+cs4722/x11.h
+C:/Computer-Graphics-and-Multimedia/assignment02/02-solid/cs4722/x11.h
+cs4722/load_shaders.h
+C:/Computer-Graphics-and-Multimedia/assignment02/02-solid/cs4722/load_shaders.h
+

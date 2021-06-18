@@ -1,5 +1,5 @@
 
-#version 440 core
+#version 330 core
 
 in vec4 bPosition;
 in vec4 bColor;
