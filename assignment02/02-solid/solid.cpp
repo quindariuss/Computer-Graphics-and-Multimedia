@@ -10,7 +10,7 @@
 #include "cs4722/load_shaders.h"
 
 
-const auto  number_of_vertices = 9;
+const auto  number_of_vertices = 20;
 
 void
 init1(void)
@@ -26,31 +26,64 @@ init1(void)
 
 
     glm::vec4 positions[] = {
-            glm::vec4(0,0,0,0), // center
+            glm::vec4(0,0,0,1), // center
             glm::vec4(radius,0, 0, 1), // most right
-            glm::vec4(radius*cos(M_PI/3), radius*sin(M_PI/3), 0, 1),
-            glm::vec4(radius*cos(M_PI/3), radius*sin(M_PI/3), 0, 1),
-            glm::vec4(radius*cos(2*M_PI/3), radius*sin(2*M_PI/3), 0, 1),
+            glm::vec4(radius*cos(M_PI/3), radius*sin(M_PI/3), 0, 1), // top right
+
+            glm::vec4(0,0,0,1), // center
+            glm::vec4(radius*cos(M_PI/3), radius*sin(M_PI/3), 0, 1), // top right
+            glm::vec4(radius*cos(2*M_PI/3), radius*sin(2*M_PI/3), 0, 1), // top lefty
+
+            glm::vec4(0,0,0,1), // center
+            glm::vec4(radius*cos(2*M_PI/3), radius*sin(2*M_PI/3), 0, 1), // top left
             glm::vec4(-radius, 0, 0, 1), // most left
-            glm::vec4(radius*cos(4*M_PI/3), radius*sin(4*M_PI/3), 0, 1),
-            glm::vec4(radius*cos(5*M_PI/3), radius*sin(5*M_PI/3), 0, 1),
-            glm::vec4(radius,0, 0, 1),
-            glm::vec4(0,0,0,0),
+
+            glm::vec4(0,0,0,1), // center
+            glm::vec4(-radius, 0, 0, 1), // most left
+            glm::vec4(radius*cos(4*M_PI/3), radius*sin(4*M_PI/3), 0, 1),// bottom left
+
+            glm::vec4(0,0,0,1), // center
+            glm::vec4(radius*cos(4*M_PI/3), radius*sin(4*M_PI/3), 0, 1),// bottom left
+            glm::vec4(radius*cos(5*M_PI/3), radius*sin(5*M_PI/3), 0, 1), // bottom right
+
+            glm::vec4(0,0,0,1), // center
+            glm::vec4(radius*cos(5*M_PI/3), radius*sin(5*M_PI/3), 0, 1), // bottom right
+            glm::vec4(radius,0, 0, 1), // most right
 
     };
 
 
 
     const cs4722::color colors[number_of_vertices] = {
-            cs4722::x11::white, //center
-            cs4722::x11::white, //most right
-            cs4722::x11::black,
+            cs4722::x11::blue,
+            cs4722::x11::blue,
+            cs4722::x11::blue,
+            cs4722::x11::blue,
+
+            cs4722::x11::white,
+            cs4722::x11::white,
+            cs4722::x11::white,
+
             cs4722::x11::yellow,
-             cs4722::x11::gray,
+            cs4722::x11::yellow,
+            cs4722::x11::yellow,
+
+            cs4722::x11::black,
+            cs4722::x11::black,
+            cs4722::x11::black,
+
             cs4722::x11::orange,
-            cs4722::x11::navajo_white,
-            cs4722::x11::purple,
+            cs4722::x11::orange,
+            cs4722::x11::orange,
+
             cs4722::x11::gray,
+            cs4722::x11::gray,
+            cs4722::x11::gray
+
+
+
+
+
     };
 	
 
