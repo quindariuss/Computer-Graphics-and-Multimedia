@@ -37,11 +37,11 @@ void init(void)
     auto radius = d / 4;
     auto base = -1 + 3 * radius;
 
-    for (auto x = 0; x < number; ++x)
+    for (auto x = 0; x < number; ++x) // number of horizontal rows
     {
-        for (auto y = 0; y < number; ++y)
+        for (auto y = 0; y < number; ++y) // number of vertical rows
         {
-            for (auto z = 0; z < number; ++z)
+            for (auto z = 0; z < 1; ++z) //  number of shapes
             {
                 auto* part = new cs4722::part_rotating();
                 part->the_shape = shape;
