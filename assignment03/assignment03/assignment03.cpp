@@ -107,7 +107,7 @@ void init(void)
             //obj->set_rotation_rate(glm::linearRand(-M_PI/2, M_PI / 2));
             //adding parts to project
             part_list.push_back(object0);
-//            part_list.push_backck(object1);
+            part_list.push_back(object1);
 //            part_list.push_back(object2);
 //            part_list.push_back(object3);
 //            part_list.push_back(object4);
