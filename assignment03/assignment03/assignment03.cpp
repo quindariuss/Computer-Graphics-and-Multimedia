@@ -30,10 +30,12 @@ void init(void)
 
 
 
-    auto* shape = new cs4722::block();
-    auto* to = new cs4722::torus();
-    auto* cyN = new cs4722::cylinder();
-    auto* cyS = new cs4722::cylinder();
+    auto* block = new cs4722::block();
+    auto* torus = new cs4722::torus();
+    auto* cylinderNorth = new cs4722::cylinder();
+    auto* cylinderSouth = new cs4722::cylinder();
+    auto* cylinderEast = new cs4722::cylinder();
+    auto* cylinderWest = new cs4722::cylinder();
 
     auto z = 0;
 
@@ -46,16 +48,70 @@ void init(void)
     {
         for (auto y = 0; y < number; ++y) // number of vertical rows
         {
-            auto* part = new cs4722::part_rotating();
-            part->the_shape = shape;
-            part->world_transform.translate = glm::vec3(base + x * d, base + y * d, base + z * d);
-            part->world_transform.scale = glm::vec3(radius, radius, radius);
-            part->animation_transform.rotation_axis = glm::vec3(3 * x + 1, 3 * y + 1, 3 * z + 1);
-            part->animation_transform.rotation_center =
-                    part->world_transform.matrix() * glm::vec4(0, 0, 0, 1);
+            auto* object0 = new cs4722::part_rotating();
+            object0->the_shape = block;
+            object0->world_transform.translate = glm::vec3(base + x * d, base + y * d, base + z * d);
+            object0->world_transform.scale = glm::vec3(radius, radius, radius);
+            object0->animation_transform.rotation_axis = glm::vec3(3 * x + 1, 3 * y + 1, 3 * z + 1);
+            object0->animation_transform.rotation_center =
+                    object0->world_transform.matrix() * glm::vec4(0, 0, 0, 1);
             //obj->set_rotation_rate(glm::linearRand(-M_PI/2, M_PI / 2));
-            part->rotation_rate = M_PI / 3;
-            part_list.push_back(part);
+            object0->rotation_rate = M_PI / 3;
+            auto* object1 = new cs4722::part_rotating();
+            object1->the_shape = torus;
+            object1->world_transform.translate = glm::vec3(base + x * d, base + y * d, base + z * d);
+            object1->world_transform.scale = glm::vec3(radius, radius, radius);
+            object1->animation_transform.rotation_axis = glm::vec3(3 * x + 1, 3 * y + 1, 3 * z + 1);
+            object1->animation_transform.rotation_center =
+                    object1->world_transform.matrix() * glm::vec4(0, 0, 0, 1);
+            //obj->set_rotation_rate(glm::linearRand(-M_PI/2, M_PI / 2));
+            object0->rotation_rate = M_PI / 3;
+            auto* object2 = new cs4722::part_rotating();
+            object2->the_shape = cylinderNorth;
+            object2->world_transform.translate = glm::vec3(base + x * d, base + y * d, base + z * d);
+            object2->world_transform.scale = glm::vec3(radius, radius, radius);
+            object2->animation_transform.rotation_axis = glm::vec3(3 * x + 1, 3 * y + 1, 3 * z + 1);
+            object2->animation_transform.rotation_center =
+                    object2->world_transform.matrix() * glm::vec4(0, 0, 0, 1);
+            //obj->set_rotation_rate(glm::linearRand(-M_PI/2, M_PI / 2));
+            object2->rotation_rate = M_PI / 3;
+
+            object0->rotation_rate = M_PI / 3;
+            auto* object3 = new cs4722::part_rotating();
+            object3->the_shape = cylinderEast;
+            object3->world_transform.translate = glm::vec3(base + x * d, base + y * d, base + z * d);
+            object3->world_transform.scale = glm::vec3(radius, radius, radius);
+            object3->animation_transform.rotation_axis = glm::vec3(3 * x + 1, 3 * y + 1, 3 * z + 1);
+            object3->animation_transform.rotation_center =
+                    object3->world_transform.matrix() * glm::vec4(0, 0, 0, 1);
+            //obj->set_rotation_rate(glm::linearRand(-M_PI/2, M_PI / 2));
+
+            object0->rotation_rate = M_PI / 3;
+            auto* object4 = new cs4722::part_rotating();
+            object4->the_shape = cylinderSouth;
+            object4->world_transform.translate = glm::vec3(base + x * d, base + y * d, base + z * d);
+            object4->world_transform.scale = glm::vec3(radius, radius, radius);
+            object4->animation_transform.rotation_axis = glm::vec3(3 * x + 1, 3 * y + 1, 3 * z + 1);
+            object4->animation_transform.rotation_center =
+                    object1->world_transform.matrix() * glm::vec4(0, 0, 0, 1);
+            //obj->set_rotation_rate(glm::linearRand(-M_PI/2, M_PI / 2));
+
+            object0->rotation_rate = M_PI / 3;
+            auto* object5 = new cs4722::part_rotating();
+            object5->the_shape = cylinderWest;
+            object5->world_transform.translate = glm::vec3(base + x * d, base + y * d, base + z * d);
+            object5->world_transform.scale = glm::vec3(radius, radius, radius);
+            object5->animation_transform.rotation_axis = glm::vec3(3 * x + 1, 3 * y + 1, 3 * z + 1);
+            object5->animation_transform.rotation_center =
+                    object5->world_transform.matrix() * glm::vec4(0, 0, 0, 1);
+            //obj->set_rotation_rate(glm::linearRand(-M_PI/2, M_PI / 2));
+            //adding parts to project
+            part_list.push_back(object0);
+            part_list.push_back(object1);
+            part_list.push_back(object2);
+            part_list.push_back(object3);
+            part_list.push_back(object4);
+            part_list.push_back(object5);
 
         }
     }
