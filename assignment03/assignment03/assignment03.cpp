@@ -32,15 +32,15 @@ void init(void)
 
     auto* centerCube = new cs4722::block();
     auto* torus = new cs4722::torus();
-    torus->color_set_ = std::vector({cs4722::x11::goldenrod, cs4722::x11::black});
+    torus->color_set_ = std::vector({cs4722::x11::goldenrod1, cs4722::x11::black});
     auto* cylinderNorth = new cs4722::cylinder();
-    cylinderNorth->color_set_ = std::vector({cs4722::x11::red, cs4722::x11::black});
+    cylinderNorth->color_set_ = std::vector({cs4722::x11::indian_red, cs4722::x11::black});
     auto* cylinderSouth = new cs4722::cylinder();
-    cylinderSouth->color_set_ = std::vector({cs4722::x11::yellow3, cs4722::x11::black});
+    cylinderSouth->color_set_ = std::vector({cs4722::x11::navajo_white, cs4722::x11::black});
     auto* cylinderEast = new cs4722::cylinder();
-    cylinderEast->color_set_ = std::vector({cs4722::x11::aquamarine, cs4722::x11::black});
+    cylinderEast->color_set_ = std::vector({cs4722::x11::steel_blue, cs4722::x11::black});
     auto* cylinderWest = new cs4722::cylinder();
-    cylinderWest->color_set_ = std::vector({cs4722::x11::green3, cs4722::x11::black});
+    cylinderWest->color_set_ = std::vector({cs4722::x11::dark_green, cs4722::x11::black});
 
     auto z = 0;
 
