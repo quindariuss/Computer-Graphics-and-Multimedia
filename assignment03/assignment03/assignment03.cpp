@@ -38,7 +38,7 @@ void init(void)
     auto* cylinderSouth = new cs4722::cylinder();
     cylinderSouth->color_set_ = std::vector({cs4722::x11::yellow3, cs4722::x11::black});
     auto* cylinderEast = new cs4722::cylinder();
-    cylinderEast->color_set_ = std::vector({cs4722::x11::blue, cs4722::x11::black});
+    cylinderEast->color_set_ = std::vector({cs4722::x11::aquamarine, cs4722::x11::black});
     auto* cylinderWest = new cs4722::cylinder();
     cylinderWest->color_set_ = std::vector({cs4722::x11::green3, cs4722::x11::black});
 
@@ -115,7 +115,7 @@ void init(void)
             auto* object5 = new cs4722::part_rotating();
             object5->the_shape = cylinderEast;
             object5->world_transform.translate =center +  glm::vec3(radius * 1.11, 0, 0);
-            object5->world_transform.scale = glm::vec3(radius/4, radius, radius/4);
+            object5->world_transform.scale = glm::vec3(radius/4, radius + .11, radius/4);
             object5->world_transform.rotation_angle = M_PI/2;
             object5->animation_transform.rotation_axis = glm::vec3(0, -1,0);
             object5->animation_transform.rotation_center =
