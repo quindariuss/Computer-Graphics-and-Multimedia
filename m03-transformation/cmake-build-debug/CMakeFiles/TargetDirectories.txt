@@ -1,0 +1,14 @@
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/01-static-transform.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/01A-use-transform.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/04-shared-shapes.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05-animation.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/02-use-part-and-attributes.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/04A-buffer-utilities.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/03-multiple-parts.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05A-rotate-about-center.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05B-oscillation.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/06-animation-many.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/07-use-material.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/08-mix-material-shape-pattern.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

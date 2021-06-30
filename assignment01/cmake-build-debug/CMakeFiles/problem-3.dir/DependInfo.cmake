@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Computer-Graphics-and-Multimedia/assignment01/problem-3/one_point.cpp" "C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-3.dir/problem-3/one_point.cpp.obj"
+  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/problem-3/one_point.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-3.dir/problem-3/one_point.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

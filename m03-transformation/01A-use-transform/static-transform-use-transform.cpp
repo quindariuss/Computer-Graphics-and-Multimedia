@@ -90,7 +90,7 @@ display(void)
 
 
     auto* tr = new cs4722::transform();
-    tr->translate = glm::vec3(.5f, -.5f, 0.0f);
+    tr->translate = glm::vec3(-.5f, -.5f, 0.0f);
     tr->rotation_angle = -M_PI / 4;
     tr->rotation_axis = glm::vec3(0,0,1);
     tr->scale = glm::vec3(.2f, .5f, .5f);
