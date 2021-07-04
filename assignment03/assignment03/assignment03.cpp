@@ -44,7 +44,7 @@ void init(void)
 
     auto z = 0;
 
-    auto number = 3;
+    auto number = 2;
     auto d = 4.0f / (2 * number + 1);
     auto radius = d / 4;
     auto base = -1 + 3 * radius;

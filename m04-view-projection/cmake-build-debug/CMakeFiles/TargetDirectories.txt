@@ -1,0 +1,7 @@
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug/CMakeFiles/01-camera.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug/CMakeFiles/02-projection.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug/CMakeFiles/03-user-interaction.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug/CMakeFiles/04-window-events.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug/CMakeFiles/04A-window-events-callbacks-util.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,4 @@
+"C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m04-view-projection
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m04-view-projection/cmake-build-debug
