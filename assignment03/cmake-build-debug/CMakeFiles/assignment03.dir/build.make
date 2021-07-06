@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03
+CMAKE_SOURCE_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/assignment03.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/assignment03.dir/flags.make
 CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.obj: CMakeFiles/assignment03.dir/flags.make
 CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.obj: CMakeFiles/assignment03.dir/includes_CXX.rsp
 CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.obj: ../assignment03/assignment03.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assignment03.dir\assignment03\assignment03.cpp.obj -c C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\assignment03\assignment03.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assignment03.dir\assignment03\assignment03.cpp.obj -c C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\assignment03\assignment03.cpp
 
 CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\assignment03\assignment03.cpp > CMakeFiles\assignment03.dir\assignment03\assignment03.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\assignment03\assignment03.cpp > CMakeFiles\assignment03.dir\assignment03\assignment03.cpp.i
 
 CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment03.dir/assignment03/assignment03.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\assignment03\assignment03.cpp -o CMakeFiles\assignment03.dir\assignment03\assignment03.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\assignment03\assignment03.cpp -o CMakeFiles\assignment03.dir\assignment03\assignment03.cpp.s
 
 # Object files for target assignment03
 assignment03_OBJECTS = \
@@ -101,7 +101,7 @@ assignment03.exe: CMakeFiles/assignment03.dir/build.make
 assignment03.exe: CMakeFiles/assignment03.dir/linklibs.rsp
 assignment03.exe: CMakeFiles/assignment03.dir/objects1.rsp
 assignment03.exe: CMakeFiles/assignment03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment03.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment03.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\assignment03.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +114,6 @@ CMakeFiles/assignment03.dir/clean:
 .PHONY : CMakeFiles/assignment03.dir/clean
 
 CMakeFiles/assignment03.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03 C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03 C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug\CMakeFiles\assignment03.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03 C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03 C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment03\cmake-build-debug\CMakeFiles\assignment03.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/assignment03.dir/depend
 

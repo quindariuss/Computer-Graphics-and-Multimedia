@@ -11,7 +11,7 @@
 #include "cs4722/buffer_utilities.h"
 #include "cs4722/window.h"
 #include "cs4722/load_shaders.h"
-#include "../part_elliptical_orbit.h"
+#include "cs4722//part_elliptical_orbit.h"
 
 static cs4722::view *the_view;
 static GLuint program;

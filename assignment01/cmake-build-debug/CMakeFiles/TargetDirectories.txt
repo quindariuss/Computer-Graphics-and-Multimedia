@@ -1,8 +1,8 @@
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-1.dir
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-2.dir
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-3.dir
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-4.dir
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-5.dir
-C:/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-6.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-1.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-2.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-3.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-4.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-5.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment01/cmake-build-debug/CMakeFiles/problem-6.dir
