@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation
+CMAKE_SOURCE_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/05-animation.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/05-animation.dir/flags.make
 CMakeFiles/05-animation.dir/05-animation/animation.cpp.obj: CMakeFiles/05-animation.dir/flags.make
 CMakeFiles/05-animation.dir/05-animation/animation.cpp.obj: CMakeFiles/05-animation.dir/includes_CXX.rsp
 CMakeFiles/05-animation.dir/05-animation/animation.cpp.obj: ../05-animation/animation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/05-animation.dir/05-animation/animation.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\05-animation.dir\05-animation\animation.cpp.obj -c C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\05-animation\animation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/05-animation.dir/05-animation/animation.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\05-animation.dir\05-animation\animation.cpp.obj -c C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\05-animation\animation.cpp
 
 CMakeFiles/05-animation.dir/05-animation/animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/05-animation.dir/05-animation/animation.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\05-animation\animation.cpp > CMakeFiles\05-animation.dir\05-animation\animation.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\05-animation\animation.cpp > CMakeFiles\05-animation.dir\05-animation\animation.cpp.i
 
 CMakeFiles/05-animation.dir/05-animation/animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/05-animation.dir/05-animation/animation.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\05-animation\animation.cpp -o CMakeFiles\05-animation.dir\05-animation\animation.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\05-animation\animation.cpp -o CMakeFiles\05-animation.dir\05-animation\animation.cpp.s
 
 # Object files for target 05-animation
 05__animation_OBJECTS = \
@@ -101,7 +101,7 @@ CMakeFiles/05-animation.dir/05-animation/animation.cpp.s: cmake_force
 05-animation.exe: CMakeFiles/05-animation.dir/linklibs.rsp
 05-animation.exe: CMakeFiles/05-animation.dir/objects1.rsp
 05-animation.exe: CMakeFiles/05-animation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 05-animation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 05-animation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\05-animation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +114,6 @@ CMakeFiles/05-animation.dir/clean:
 .PHONY : CMakeFiles/05-animation.dir/clean
 
 CMakeFiles/05-animation.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles\05-animation.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles\05-animation.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/05-animation.dir/depend
 

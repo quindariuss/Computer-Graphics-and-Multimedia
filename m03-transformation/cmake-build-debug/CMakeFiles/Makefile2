@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation
+CMAKE_SOURCE_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -114,14 +114,14 @@ clean: CMakeFiles/08-mix-material-shape-pattern.dir/clean
 CMakeFiles/01-static-transform.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-static-transform.dir\build.make CMakeFiles/01-static-transform.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-static-transform.dir\build.make CMakeFiles/01-static-transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target 01-static-transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target 01-static-transform"
 .PHONY : CMakeFiles/01-static-transform.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01-static-transform.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01-static-transform.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01-static-transform.dir/rule
 
 # Convenience name for target.
@@ -141,14 +141,14 @@ CMakeFiles/01-static-transform.dir/clean:
 CMakeFiles/01A-use-transform.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01A-use-transform.dir\build.make CMakeFiles/01A-use-transform.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01A-use-transform.dir\build.make CMakeFiles/01A-use-transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target 01A-use-transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target 01A-use-transform"
 .PHONY : CMakeFiles/01A-use-transform.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01A-use-transform.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01A-use-transform.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01A-use-transform.dir/rule
 
 # Convenience name for target.
@@ -168,14 +168,14 @@ CMakeFiles/01A-use-transform.dir/clean:
 CMakeFiles/04-shared-shapes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-shared-shapes.dir\build.make CMakeFiles/04-shared-shapes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-shared-shapes.dir\build.make CMakeFiles/04-shared-shapes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target 04-shared-shapes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target 04-shared-shapes"
 .PHONY : CMakeFiles/04-shared-shapes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/04-shared-shapes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/04-shared-shapes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/04-shared-shapes.dir/rule
 
 # Convenience name for target.
@@ -195,14 +195,14 @@ CMakeFiles/04-shared-shapes.dir/clean:
 CMakeFiles/05-animation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-animation.dir\build.make CMakeFiles/05-animation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-animation.dir\build.make CMakeFiles/05-animation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target 05-animation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target 05-animation"
 .PHONY : CMakeFiles/05-animation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/05-animation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/05-animation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/05-animation.dir/rule
 
 # Convenience name for target.
@@ -222,14 +222,14 @@ CMakeFiles/05-animation.dir/clean:
 CMakeFiles/02-use-part-and-attributes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-use-part-and-attributes.dir\build.make CMakeFiles/02-use-part-and-attributes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-use-part-and-attributes.dir\build.make CMakeFiles/02-use-part-and-attributes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target 02-use-part-and-attributes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target 02-use-part-and-attributes"
 .PHONY : CMakeFiles/02-use-part-and-attributes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/02-use-part-and-attributes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/02-use-part-and-attributes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/02-use-part-and-attributes.dir/rule
 
 # Convenience name for target.
@@ -249,14 +249,14 @@ CMakeFiles/02-use-part-and-attributes.dir/clean:
 CMakeFiles/04A-buffer-utilities.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04A-buffer-utilities.dir\build.make CMakeFiles/04A-buffer-utilities.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04A-buffer-utilities.dir\build.make CMakeFiles/04A-buffer-utilities.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target 04A-buffer-utilities"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target 04A-buffer-utilities"
 .PHONY : CMakeFiles/04A-buffer-utilities.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/04A-buffer-utilities.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/04A-buffer-utilities.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/04A-buffer-utilities.dir/rule
 
 # Convenience name for target.
@@ -276,14 +276,14 @@ CMakeFiles/04A-buffer-utilities.dir/clean:
 CMakeFiles/03-multiple-parts.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-multiple-parts.dir\build.make CMakeFiles/03-multiple-parts.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-multiple-parts.dir\build.make CMakeFiles/03-multiple-parts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target 03-multiple-parts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target 03-multiple-parts"
 .PHONY : CMakeFiles/03-multiple-parts.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/03-multiple-parts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/03-multiple-parts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/03-multiple-parts.dir/rule
 
 # Convenience name for target.
@@ -303,14 +303,14 @@ CMakeFiles/03-multiple-parts.dir/clean:
 CMakeFiles/05A-rotate-about-center.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05A-rotate-about-center.dir\build.make CMakeFiles/05A-rotate-about-center.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05A-rotate-about-center.dir\build.make CMakeFiles/05A-rotate-about-center.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target 05A-rotate-about-center"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target 05A-rotate-about-center"
 .PHONY : CMakeFiles/05A-rotate-about-center.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/05A-rotate-about-center.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/05A-rotate-about-center.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/05A-rotate-about-center.dir/rule
 
 # Convenience name for target.
@@ -330,14 +330,14 @@ CMakeFiles/05A-rotate-about-center.dir/clean:
 CMakeFiles/05B-oscillation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05B-oscillation.dir\build.make CMakeFiles/05B-oscillation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05B-oscillation.dir\build.make CMakeFiles/05B-oscillation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=18,19,20 "Built target 05B-oscillation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=18,19,20 "Built target 05B-oscillation"
 .PHONY : CMakeFiles/05B-oscillation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/05B-oscillation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/05B-oscillation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/05B-oscillation.dir/rule
 
 # Convenience name for target.
@@ -357,14 +357,14 @@ CMakeFiles/05B-oscillation.dir/clean:
 CMakeFiles/06-animation-many.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-animation-many.dir\build.make CMakeFiles/06-animation-many.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-animation-many.dir\build.make CMakeFiles/06-animation-many.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 06-animation-many"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 06-animation-many"
 .PHONY : CMakeFiles/06-animation-many.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/06-animation-many.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/06-animation-many.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/06-animation-many.dir/rule
 
 # Convenience name for target.
@@ -384,14 +384,14 @@ CMakeFiles/06-animation-many.dir/clean:
 CMakeFiles/07-use-material.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-use-material.dir\build.make CMakeFiles/07-use-material.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-use-material.dir\build.make CMakeFiles/07-use-material.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 07-use-material"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 07-use-material"
 .PHONY : CMakeFiles/07-use-material.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/07-use-material.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/07-use-material.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/07-use-material.dir/rule
 
 # Convenience name for target.
@@ -411,14 +411,14 @@ CMakeFiles/07-use-material.dir/clean:
 CMakeFiles/08-mix-material-shape-pattern.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-mix-material-shape-pattern.dir\build.make CMakeFiles/08-mix-material-shape-pattern.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-mix-material-shape-pattern.dir\build.make CMakeFiles/08-mix-material-shape-pattern.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 08-mix-material-shape-pattern"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 08-mix-material-shape-pattern"
 .PHONY : CMakeFiles/08-mix-material-shape-pattern.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/08-mix-material-shape-pattern.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/08-mix-material-shape-pattern.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/08-mix-material-shape-pattern.dir/rule
 
 # Convenience name for target.

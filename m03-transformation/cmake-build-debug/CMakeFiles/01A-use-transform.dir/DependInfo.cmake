@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/01A-use-transform/static-transform-use-transform.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/01A-use-transform.dir/01A-use-transform/static-transform-use-transform.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/01A-use-transform/static-transform-use-transform.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/01A-use-transform.dir/01A-use-transform/static-transform-use-transform.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

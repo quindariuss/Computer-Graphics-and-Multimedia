@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/08-mix-material-shape-pattern/mix_material_shape.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/08-mix-material-shape-pattern.dir/08-mix-material-shape-pattern/mix_material_shape.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/08-mix-material-shape-pattern/mix_material_shape.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/08-mix-material-shape-pattern.dir/08-mix-material-shape-pattern/mix_material_shape.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation
+CMAKE_SOURCE_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/02-use-part-and-attributes.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/02-use-part-and-attributes.dir/flags.make
 CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.obj: CMakeFiles/02-use-part-and-attributes.dir/flags.make
 CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.obj: CMakeFiles/02-use-part-and-attributes.dir/includes_CXX.rsp
 CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.obj: ../02-use-part-and-attributes/use_part.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\02-use-part-and-attributes.dir\02-use-part-and-attributes\use_part.cpp.obj -c C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\02-use-part-and-attributes\use_part.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\02-use-part-and-attributes.dir\02-use-part-and-attributes\use_part.cpp.obj -c C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\02-use-part-and-attributes\use_part.cpp
 
 CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\02-use-part-and-attributes\use_part.cpp > CMakeFiles\02-use-part-and-attributes.dir\02-use-part-and-attributes\use_part.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\02-use-part-and-attributes\use_part.cpp > CMakeFiles\02-use-part-and-attributes.dir\02-use-part-and-attributes\use_part.cpp.i
 
 CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\02-use-part-and-attributes\use_part.cpp -o CMakeFiles\02-use-part-and-attributes.dir\02-use-part-and-attributes\use_part.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\02-use-part-and-attributes\use_part.cpp -o CMakeFiles\02-use-part-and-attributes.dir\02-use-part-and-attributes\use_part.cpp.s
 
 # Object files for target 02-use-part-and-attributes
 02__use__part__and__attributes_OBJECTS = \
@@ -101,7 +101,7 @@ CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cp
 02-use-part-and-attributes.exe: CMakeFiles/02-use-part-and-attributes.dir/linklibs.rsp
 02-use-part-and-attributes.exe: CMakeFiles/02-use-part-and-attributes.dir/objects1.rsp
 02-use-part-and-attributes.exe: CMakeFiles/02-use-part-and-attributes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 02-use-part-and-attributes.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 02-use-part-and-attributes.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\02-use-part-and-attributes.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +114,6 @@ CMakeFiles/02-use-part-and-attributes.dir/clean:
 .PHONY : CMakeFiles/02-use-part-and-attributes.dir/clean
 
 CMakeFiles/02-use-part-and-attributes.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles\02-use-part-and-attributes.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug C:\Users\quindarius\Documents\Computer-Graphics-and-Multimedia\m03-transformation\cmake-build-debug\CMakeFiles\02-use-part-and-attributes.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/02-use-part-and-attributes.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/05B-oscillation/oscillation.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05B-oscillation.dir/05B-oscillation/oscillation.cpp.obj"
-  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/05B-oscillation/part_oscillating.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05B-oscillation.dir/05B-oscillation/part_oscillating.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/05B-oscillation/oscillation.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05B-oscillation.dir/05B-oscillation/oscillation.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/05B-oscillation/part_oscillating.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05B-oscillation.dir/05B-oscillation/part_oscillating.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

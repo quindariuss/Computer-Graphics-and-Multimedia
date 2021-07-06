@@ -3,7 +3,7 @@ project(assignment05)
 
 
 
-link_libraries(cs4722 cs4722external glfw3dll opengl32 glu32)
+link_libraries(cs4722 cs4722external glfw3 opengl32 glu32)
 
 set(CMAKE_CXX_STANDARD 20)
 

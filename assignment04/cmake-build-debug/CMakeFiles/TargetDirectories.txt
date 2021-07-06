@@ -1,4 +1,4 @@
-C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/01-elliptical-orbit.dir
-C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/02-alternate-specifications.dir
-C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/01-elliptical-orbit.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/02-alternate-specifications.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/rebuild_cache.dir

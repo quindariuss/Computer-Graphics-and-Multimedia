@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/02-use-part-and-attributes/use_part.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/02-use-part-and-attributes/use_part.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/02-use-part-and-attributes.dir/02-use-part-and-attributes/use_part.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

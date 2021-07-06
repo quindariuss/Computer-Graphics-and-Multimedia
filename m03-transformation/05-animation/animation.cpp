@@ -25,7 +25,8 @@ void init(void)
 
     glEnable(GL_PROGRAM_POINT_SIZE);
     glEnable(GL_DEPTH_TEST);
-
+    cs4722::view viewer;
+    viewer.display_parameters();
 	
     // create a shape
     //cs4722::shape *b =  new cs4722::cylinder(.75, 20);

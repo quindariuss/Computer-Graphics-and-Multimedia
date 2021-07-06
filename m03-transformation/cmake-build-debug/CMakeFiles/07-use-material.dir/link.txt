@@ -1,3 +1,3 @@
-"C:\Users\quinw\AppData\Local\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\07-use-material.dir/objects.a
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\07-use-material.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\07-use-material.dir/objects.a @CMakeFiles\07-use-material.dir\objects1.rsp
 C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\07-use-material.dir/objects.a -Wl,--no-whole-archive -o 07-use-material.exe -Wl,--out-implib,lib07-use-material.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\07-use-material.dir\linklibs.rsp

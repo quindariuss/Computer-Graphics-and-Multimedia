@@ -12,7 +12,7 @@
 #include "cs4722/buffer_utilities.h"
 #include "cs4722/window.h"
 #include "cs4722/load_shaders.h"
-#include "../part_elliptical_orbit.h"
+#include "cs4722//part_elliptical_orbit.h"
 
 static cs4722::view *the_view;
 static GLuint program;
@@ -108,9 +108,18 @@ void init()
     p1->world_transform.scale = (glm::vec3(.5, .5, .5));
     p1->path_center = p1_path_center;
     p1->orbital_rate = p1_orbital_rate;
+
+    p1-> aphelion_vector = p1_unit_a * p1_semi_major_axis;
+     p1->perihelion_vector = p1_unit_p * p1_semi_minor_axis;
+
+   p1->rotation_rate = M_PI/2 ;
+   p1->world_transform.translate = glm::vec3 (.5,-.5,0);
+   p1->animation_transform.rotation_axis = p1->world_transform.matrix() * glm::vec4(0,1,0,0);
+   p1->animation_transform.rotation_center = p1->world_transform.matrix() * glm::vec4(0,0,0,1);
+
+
+
     p1->time_offset = p1_time_offset;part_list.push_back(p1);
-
-
 
 
     cs4722::shape* b2 = new cs4722::sphere(15, 50);
@@ -118,7 +127,20 @@ void init()
     auto* p2 = new cs4722::part_elliptical_orbit();
     p2->the_shape = b2;
     p2->world_transform.scale = (glm::vec3(.5, .5, .5));
+    p2->path_center = p2_path_center;
+    p2->orbital_rate = p2_orbital_rate;
+    p2->time_offset = p2_time_offset;part_list.push_back(p2);
+
+    p2-> aphelion_vector = glm::normalize(p2_non_unit_a) * p2_semi_major_axis;
+    p2-> perihelion_vector = glm::normalize(p2_non_unit_p) * p2_semi_minor_axis;
+
+    p2->rotation_rate = M_PI/2 ;
+    p2->world_transform.translate = glm::vec3 (.5,-.5,0);
+    p2->animation_transform.rotation_axis = p2->world_transform.matrix() * glm::vec4(0,1,0,0);
+    p2->animation_transform.rotation_center = p2->world_transform.matrix() * glm::vec4(0,0,0,1);
     part_list.push_back(p2);
+
+
 
 
     cs4722::shape* b3 = new cs4722::sphere(15, 50);
@@ -126,6 +148,17 @@ void init()
     auto* p3 = new cs4722::part_elliptical_orbit();
     p3->the_shape = b3;
     p3->world_transform.scale = (glm::vec3(.5, .5, .5));
+    p3->path_center = p3_path_center;
+    p3->orbital_rate = p3_orbital_rate;
+    p3->time_offset = p3_time_offset;part_list.push_back(p3);
+    p3-> aphelion_vector= glm::normalize(glm::cross(p3_non_unit_p,p3_normal)) * p3_semi_major_axis;
+    p3-> perihelion_vector = glm::normalize(p3_non_unit_p) * p3_semi_minor_axis;
+
+    p3->rotation_rate = M_PI/2 ;
+    p3->world_transform.translate = glm::vec3 (.5,-.5,0);
+    p3->animation_transform.rotation_axis = p3->world_transform.matrix() * glm::vec4(0,1,0,0);
+    p3->animation_transform.rotation_center = p3->world_transform.matrix() * glm::vec4(0,0,0,1);
+
     part_list.push_back(p3);
 
     cs4722::shape* b4 = new cs4722::sphere(15, 50);
@@ -133,6 +166,17 @@ void init()
     auto* p4 = new cs4722::part_elliptical_orbit();
     p4->the_shape = b4;
     p4->world_transform.scale = (glm::vec3(.5, .5, .5));
+    p4-> aphelion_vector= glm::normalize(glm::cross(p4_non_unit_p,p4_normal)) * p4_semi_major_axis;
+    p4-> perihelion_vector = glm::normalize(p4_non_unit_p) * p4_semi_minor_axis;
+    p4->orbital_rate = 2 * M_PI / p4_orbital_period;
+    p4-> path_center = p4_path_center;
+    p4->time_offset = p4_time_offset;
+
+    p4->rotation_rate = M_PI/2 ;
+    p4->world_transform.translate = glm::vec3 (.5,-.5,0);
+    p4->animation_transform.rotation_axis = p4->world_transform.matrix() * glm::vec4(0,1,0,0);
+    p4->animation_transform.rotation_center = p4->world_transform.matrix() * glm::vec4(0,0,0,1);
+
     part_list.push_back(p4);
 
 
@@ -141,23 +185,36 @@ void init()
     auto* p5 = new cs4722::part_elliptical_orbit();
     p5->the_shape = b5;
     p5->world_transform.scale = (glm::vec3(.5, .5, .5));
+    p5-> aphelion_vector= glm::normalize(glm::cross(p5_non_unit_p,p5_normal)) * p5_semi_major_axis;
+    p5-> perihelion_vector = glm::normalize(p5_non_unit_p) * p5_semi_minor_axis;
+    p5->orbital_rate = 2 * M_PI / p5_orbital_period;
+    p5->rotation_rate = M_PI/2 ;
+    p5->world_transform.translate = glm::vec3 (.5,-.5,0);
+    p5->animation_transform.rotation_axis = p5->world_transform.matrix() * glm::vec4(0,1,0,0);
+    p5->animation_transform.rotation_center = p5->world_transform.matrix() * glm::vec4(0,0,0,1);
+    auto norm  = glm::normalize(glm::cross(p5_non_unit_p, p5_normal));
+    float gravity = sqrt(p5_semi_major_axis *  p5_semi_major_axis - p5_semi_minor_axis * p5_semi_minor_axis);
+    p5-> path_center = p5_path_focus - (norm  - gravity);
+    p5->rotation_rate = M_PI/2 ;
+    p5->world_transform.translate = glm::vec3 (.5,-.5,0);
+    p5->animation_transform.rotation_axis = p5->world_transform.matrix() * glm::vec4(0,1,0,0);
+    p5->animation_transform.rotation_center = p5->world_transform.matrix() * glm::vec4(0,0,0,1);
     part_list.push_back(p5);
+    auto *partC = new cs4722::part();
+    partC->the_shape = new cs4722::sphere();
+    partC->the_shape->color_set_ = std::vector({cs4722::x11::wheat1, cs4722::x11::wheat4});
+    partC->world_transform.scale = glm::vec3(.2);
+    partC->world_transform.translate = glm::vec3(0);
+    part_list.push_back(partC);
 
 
-//    auto *partC = new cs4722::part();
-//    partC->the_shape = new cs4722::sphere();
-//    partC->the_shape->color_set_ = std::vector({cs4722::x11::wheat1, cs4722::x11::wheat4});
-//    partC->world_transform.scale = glm::vec3(.2);
-//    partC->world_transform.translate = glm::vec3(0);
-//    part_list.push_back(partC);
-//
-//
-//    auto *partC2 = new cs4722::part();
-//    partC2->the_shape = new cs4722::sphere();
-//    partC2->the_shape->color_set_ = std::vector({cs4722::x11::white, cs4722::x11::white});
-//    partC2->world_transform.scale = glm::vec3(.2);
-//    partC2->world_transform.translate = p5->path_center;
-//    part_list.push_back(partC2);
+    auto *partC2 = new cs4722::part();
+    partC2->the_shape = new cs4722::sphere();
+    partC2->the_shape->color_set_ = std::vector({cs4722::x11::white, cs4722::x11::white});
+    partC2->world_transform.scale = glm::vec3(.2);
+    partC2->world_transform.translate = p5->path_center;
+    part_list.push_back(partC2);
+
 
 
 

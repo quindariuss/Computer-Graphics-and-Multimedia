@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation
+# Install script for directory: C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

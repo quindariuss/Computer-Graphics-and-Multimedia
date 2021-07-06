@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/05-animation/animation.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05-animation.dir/05-animation/animation.cpp.obj"
+  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/05-animation/animation.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/m03-transformation/cmake-build-debug/CMakeFiles/05-animation.dir/05-animation/animation.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
