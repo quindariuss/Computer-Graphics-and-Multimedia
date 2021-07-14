@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/elliptical_orbit.cpp" "C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/01-elliptical-orbit.dir/01-elliptical-orbit/elliptical_orbit.cpp.obj"
+  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/elliptical_orbit.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/cmake-build-debug/CMakeFiles/01-elliptical-orbit.dir/01-elliptical-orbit/elliptical_orbit.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

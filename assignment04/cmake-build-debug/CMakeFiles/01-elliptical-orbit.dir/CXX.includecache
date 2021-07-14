@@ -108,19 +108,19 @@ iostream
 GLM/vec4.hpp
 -
 
-C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/elliptical_orbit.cpp
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/elliptical_orbit.cpp
 GLM/gtc/type_ptr.hpp
-C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/GLM/gtc/type_ptr.hpp
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/GLM/gtc/type_ptr.hpp
 glad/gl.h
 -
 cs4722/callbacks.h
-C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/callbacks.h
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/callbacks.h
 cs4722/buffer_utilities.h
-C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/buffer_utilities.h
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/buffer_utilities.h
 cs4722/window.h
-C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/window.h
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/window.h
 cs4722/load_shaders.h
-C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/load_shaders.h
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/load_shaders.h
 cs4722/part_elliptical_orbit.h
-C:/Users/quindarius/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/part_elliptical_orbit.h
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment04/01-elliptical-orbit/cs4722/part_elliptical_orbit.h
 
