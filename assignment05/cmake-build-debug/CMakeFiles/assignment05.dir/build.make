@@ -75,33 +75,65 @@ include CMakeFiles/assignment05.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/assignment05.dir/flags.make
 
-CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj: CMakeFiles/assignment05.dir/flags.make
-CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj: CMakeFiles/assignment05.dir/includes_CXX.rsp
-CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj: ../assignment05/assignment05.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assignment05.dir\assignment05\assignment05.cpp.obj -c C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\assignment05.cpp
+CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj: CMakeFiles/assignment05.dir/flags.make
+CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj: CMakeFiles/assignment05.dir/includes_CXX.rsp
+CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj: ../assignment05/skybox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assignment05.dir\assignment05\skybox.cpp.obj -c C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\skybox.cpp
 
-CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\assignment05.cpp > CMakeFiles\assignment05.dir\assignment05\assignment05.cpp.i
+CMakeFiles/assignment05.dir/assignment05/skybox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment05.dir/assignment05/skybox.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\skybox.cpp > CMakeFiles\assignment05.dir\assignment05\skybox.cpp.i
 
-CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\assignment05.cpp -o CMakeFiles\assignment05.dir\assignment05\assignment05.cpp.s
+CMakeFiles/assignment05.dir/assignment05/skybox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment05.dir/assignment05/skybox.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\skybox.cpp -o CMakeFiles\assignment05.dir\assignment05\skybox.cpp.s
+
+CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj: CMakeFiles/assignment05.dir/flags.make
+CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj: CMakeFiles/assignment05.dir/includes_CXX.rsp
+CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj: ../assignment05/setup_skybox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assignment05.dir\assignment05\setup_skybox.cpp.obj -c C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\setup_skybox.cpp
+
+CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\setup_skybox.cpp > CMakeFiles\assignment05.dir\assignment05\setup_skybox.cpp.i
+
+CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\setup_skybox.cpp -o CMakeFiles\assignment05.dir\assignment05\setup_skybox.cpp.s
+
+CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj: CMakeFiles/assignment05.dir/flags.make
+CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj: CMakeFiles/assignment05.dir/includes_CXX.rsp
+CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj: ../assignment05/setup_parts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assignment05.dir\assignment05\setup_parts.cpp.obj -c C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\setup_parts.cpp
+
+CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\setup_parts.cpp > CMakeFiles\assignment05.dir\assignment05\setup_parts.cpp.i
+
+CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\assignment05\setup_parts.cpp -o CMakeFiles\assignment05.dir\assignment05\setup_parts.cpp.s
 
 # Object files for target assignment05
 assignment05_OBJECTS = \
-"CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj"
+"CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj" \
+"CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj" \
+"CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj"
 
 # External object files for target assignment05
 assignment05_EXTERNAL_OBJECTS =
 
-assignment05.exe: CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj
+assignment05.exe: CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj
+assignment05.exe: CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj
+assignment05.exe: CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj
 assignment05.exe: CMakeFiles/assignment05.dir/build.make
 assignment05.exe: CMakeFiles/assignment05.dir/linklibs.rsp
 assignment05.exe: CMakeFiles/assignment05.dir/objects1.rsp
 assignment05.exe: CMakeFiles/assignment05.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment05.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quinw\Documents\Computer-Graphics-and-Multimedia\assignment05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable assignment05.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\assignment05.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

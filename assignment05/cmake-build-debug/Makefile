@@ -141,32 +141,86 @@ assignment05/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/build
 .PHONY : assignment05/fast
 
-assignment05/assignment05.obj: assignment05/assignment05.cpp.obj
+assignment05/setup_parts.obj: assignment05/setup_parts.cpp.obj
 
-.PHONY : assignment05/assignment05.obj
+.PHONY : assignment05/setup_parts.obj
 
 # target to build an object file
-assignment05/assignment05.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj
-.PHONY : assignment05/assignment05.cpp.obj
+assignment05/setup_parts.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj
+.PHONY : assignment05/setup_parts.cpp.obj
 
-assignment05/assignment05.i: assignment05/assignment05.cpp.i
+assignment05/setup_parts.i: assignment05/setup_parts.cpp.i
 
-.PHONY : assignment05/assignment05.i
+.PHONY : assignment05/setup_parts.i
 
 # target to preprocess a source file
-assignment05/assignment05.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.i
-.PHONY : assignment05/assignment05.cpp.i
+assignment05/setup_parts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.i
+.PHONY : assignment05/setup_parts.cpp.i
 
-assignment05/assignment05.s: assignment05/assignment05.cpp.s
+assignment05/setup_parts.s: assignment05/setup_parts.cpp.s
 
-.PHONY : assignment05/assignment05.s
+.PHONY : assignment05/setup_parts.s
 
 # target to generate assembly for a file
-assignment05/assignment05.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.s
-.PHONY : assignment05/assignment05.cpp.s
+assignment05/setup_parts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.s
+.PHONY : assignment05/setup_parts.cpp.s
+
+assignment05/setup_skybox.obj: assignment05/setup_skybox.cpp.obj
+
+.PHONY : assignment05/setup_skybox.obj
+
+# target to build an object file
+assignment05/setup_skybox.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj
+.PHONY : assignment05/setup_skybox.cpp.obj
+
+assignment05/setup_skybox.i: assignment05/setup_skybox.cpp.i
+
+.PHONY : assignment05/setup_skybox.i
+
+# target to preprocess a source file
+assignment05/setup_skybox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.i
+.PHONY : assignment05/setup_skybox.cpp.i
+
+assignment05/setup_skybox.s: assignment05/setup_skybox.cpp.s
+
+.PHONY : assignment05/setup_skybox.s
+
+# target to generate assembly for a file
+assignment05/setup_skybox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.s
+.PHONY : assignment05/setup_skybox.cpp.s
+
+assignment05/skybox.obj: assignment05/skybox.cpp.obj
+
+.PHONY : assignment05/skybox.obj
+
+# target to build an object file
+assignment05/skybox.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj
+.PHONY : assignment05/skybox.cpp.obj
+
+assignment05/skybox.i: assignment05/skybox.cpp.i
+
+.PHONY : assignment05/skybox.i
+
+# target to preprocess a source file
+assignment05/skybox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/skybox.cpp.i
+.PHONY : assignment05/skybox.cpp.i
+
+assignment05/skybox.s: assignment05/skybox.cpp.s
+
+.PHONY : assignment05/skybox.s
+
+# target to generate assembly for a file
+assignment05/skybox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\assignment05.dir\build.make CMakeFiles/assignment05.dir/assignment05/skybox.cpp.s
+.PHONY : assignment05/skybox.cpp.s
 
 # Help Target
 help:
@@ -177,9 +231,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... assignment05
-	@echo ... assignment05/assignment05.obj
-	@echo ... assignment05/assignment05.i
-	@echo ... assignment05/assignment05.s
+	@echo ... assignment05/setup_parts.obj
+	@echo ... assignment05/setup_parts.i
+	@echo ... assignment05/setup_parts.s
+	@echo ... assignment05/setup_skybox.obj
+	@echo ... assignment05/setup_skybox.i
+	@echo ... assignment05/setup_skybox.s
+	@echo ... assignment05/skybox.obj
+	@echo ... assignment05/skybox.i
+	@echo ... assignment05/skybox.s
 .PHONY : help
 
 

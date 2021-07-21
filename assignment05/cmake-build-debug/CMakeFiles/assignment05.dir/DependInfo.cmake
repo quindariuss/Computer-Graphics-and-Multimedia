@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/assignment05/assignment05.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/cmake-build-debug/CMakeFiles/assignment05.dir/assignment05/assignment05.cpp.obj"
+  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/assignment05/setup_parts.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/cmake-build-debug/CMakeFiles/assignment05.dir/assignment05/setup_parts.cpp.obj"
+  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/assignment05/setup_skybox.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/cmake-build-debug/CMakeFiles/assignment05.dir/assignment05/setup_skybox.cpp.obj"
+  "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/assignment05/skybox.cpp" "C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/assignment05/cmake-build-debug/CMakeFiles/assignment05.dir/assignment05/skybox.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
