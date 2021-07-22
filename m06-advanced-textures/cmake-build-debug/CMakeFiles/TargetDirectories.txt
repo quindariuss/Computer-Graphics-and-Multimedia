@@ -1,0 +1,9 @@
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/01-cube-map.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/07-point-sprites-2.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/06-point-sprites.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/02-sky-box.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/03-reflecting-object.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/04-render-to-texture.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/05-image-processing.dir
+C:/Users/quinw/Documents/Computer-Graphics-and-Multimedia/m06-advanced-textures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
