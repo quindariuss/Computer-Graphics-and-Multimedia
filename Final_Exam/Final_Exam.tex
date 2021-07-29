@@ -137,10 +137,18 @@ The image to the below shows six points stored in the GPU buffer. The list of po
 \includegraphics[width=1.0\textwidth]{Image_6}
 \part{Question Six: Shading Language}
 \section{Question}
+In each case, name the built-in variable in the shading language.
+\subsection{ A vertex must be assigned to this variable}
+\subsection{Answer}
+gl Position
+\subsection{ A value can optionally be assigned to this variable to set the size of graphic that is used to display a point.}
+gl PointSize
 \section{Answer}
 \part{Question Seven: Projection Transformations}
 \section{Question}
+What we call a projection transformation and have used in transforming vertices in our scenes is not actually a projection: it does not flatten the scene into two dimensions. Why is the scene left in three dimensions to be passed on to the fragment shader?
 \section{Answer}
+Because objects are not visible if they are farther away from the viewer then objects which are behind, or Depth Checking.
 \part{Question Eight: Lighting Geometry}
 \section{Question}
 \section{Answer}
