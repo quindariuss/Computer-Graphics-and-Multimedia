@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "pdflatex Final_Exam.tex"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "open Final_Exam.pdf"
+    }
+  },
+  "buildBeforeRunning" : true,
+  "identifier" : "1857BB91-8B91-4C13-9282-F36F82D122CA"
+}
