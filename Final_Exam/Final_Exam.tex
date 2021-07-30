@@ -86,19 +86,25 @@ We want to render a geometric figure which is modeled using 38 triangles.
 As with almost all of our examples, he figure will be drawn using gl triangles mode. This question is about measuring the memory used to store the vertex data.
 \subsection{ How many vertices will be used to represent each triangle?}
 \subsection{Answer}
+3 Vertices will be used to represent each of the triangles using the gl triangles mode.
 \subsection{ Using the standard way we have represented vertex positions in our code examples, how many float values will be used to represent each vertex position?
 }
 \subsection{Answer}
+There will be four float values used with each of the vertex positions.
 \subsection{ How many float values in all will it take to represent all the vertex positions for the figure?
 }
 \subsection{Answer}
+It will take 456 float values to represent the 38 triangles.
 \subsection{ How many bytes will that take to store all this position data?
 }
 \subsection{Answer}
+It will take 1,824 Bytes to store all the position data in this scene.
 \subsection{ In the examples where colors were assigned to vertices, each color was represented by a cs4722::color object. How many bytes does it take to store the data (r, g, b, and a components) of a cs4722::color object?}
 \subsection{Answer}
+There is one byte for each color coordinate, Given the R, G, B, and Components that will amount to four bytes.
 \subsection{ How many bytes would it take to store all of the color data assigned to the vertices of this figure?}
 \subsection{Answer}
+Given that each color component is four bytes it will take 456 bytes of data for color storage in this scene.
 \part{Question Four: Pipeline}
 \section{Question}
 Each part below describes a stage or a process in the standard OpenGL rendering pipeline. Your answer is to name the pipeline stage or process.
