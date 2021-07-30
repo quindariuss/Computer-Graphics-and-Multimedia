@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.13)  30 JUL 2021 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.13)  30 JUL 2021 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -173,43 +173,43 @@ Package pdftex.def Info: question_two.jpg  used on input line 82.
 <Image_1.png, id=42, 1713.40125pt x 1712.3975pt>
 File: Image_1.png Graphic file (type png)
 <use Image_1.png>
-Package pdftex.def Info: Image_1.png  used on input line 131.
+Package pdftex.def Info: Image_1.png  used on input line 130.
 (pdftex.def)             Requested size: 345.0pt x 344.79892pt.
 <Image_0.png, id=44, 1706.375pt x 1706.375pt>
 File: Image_0.png Graphic file (type png)
 <use Image_0.png>
-Package pdftex.def Info: Image_0.png  used on input line 133.
+Package pdftex.def Info: Image_0.png  used on input line 132.
 (pdftex.def)             Requested size: 345.0pt x 344.99226pt.
  [11 <./Image_1.png>]
 <Image_2.png, id=49, 1698.345pt x 1711.39375pt>
 File: Image_2.png Graphic file (type png)
 <use Image_2.png>
-Package pdftex.def Info: Image_2.png  used on input line 135.
+Package pdftex.def Info: Image_2.png  used on input line 134.
 (pdftex.def)             Requested size: 345.0pt x 347.65211pt.
 
 [12 <./Image_0.png>]
 <Image_3.png, id=54, 1707.37875pt x 1701.35625pt>
 File: Image_3.png Graphic file (type png)
 <use Image_3.png>
-Package pdftex.def Info: Image_3.png  used on input line 137.
+Package pdftex.def Info: Image_3.png  used on input line 136.
 (pdftex.def)             Requested size: 345.0pt x 343.7699pt.
  [13 <./Image_2.png>]
 <Image_4.png, id=60, 1705.37125pt x 1700.3525pt>
 File: Image_4.png Graphic file (type png)
 <use Image_4.png>
-Package pdftex.def Info: Image_4.png  used on input line 139.
+Package pdftex.def Info: Image_4.png  used on input line 138.
 (pdftex.def)             Requested size: 345.0pt x 343.98221pt.
  [14 <./Image_3.png>]
 <Image_5.png, id=65, 1707.37875pt x 1712.3975pt>
 File: Image_5.png Graphic file (type png)
 <use Image_5.png>
-Package pdftex.def Info: Image_5.png  used on input line 141.
+Package pdftex.def Info: Image_5.png  used on input line 140.
 (pdftex.def)             Requested size: 345.0pt x 346.00085pt.
  [15 <./Image_4.png>]
 <Image_6.png, id=70, 1705.37125pt x 1714.405pt>
 File: Image_6.png Graphic file (type png)
 <use Image_6.png>
-Package pdftex.def Info: Image_6.png  used on input line 143.
+Package pdftex.def Info: Image_6.png  used on input line 142.
 (pdftex.def)             Requested size: 345.0pt x 346.82504pt.
  [16 <./Image_5.png>] [17 <./Image_6.png>] [18
 
@@ -230,7 +230,7 @@ Here is how much of TeX's memory you used:
  19392 multiletter control sequences out of 15000+600000
  406007 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,74p,513b,123s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,74p,574b,123s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
@@ -239,7 +239,7 @@ amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on Final_Exam.pdf (27 pages, 2323351 bytes).
+Output written on Final_Exam.pdf (27 pages, 2324850 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream

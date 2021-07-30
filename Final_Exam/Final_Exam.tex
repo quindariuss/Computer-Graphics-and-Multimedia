@@ -126,7 +126,6 @@ Fragment Processing
 \part{Question Five: Drawing Modes}
 \section{Question}
 The image to the below shows six points stored in the GPU buffer. The list of points starts with the black point, lower left, and continue around clockwise: black, red, green, blue, magenta, cyan. These points can be used to draw triangles or lines or points' in various ways, depending on the drawing mode. TRIANGLES or LINES for example.- -> For each picture below, tell which drawing mode was used to produce that picture. Each of the seven drawing modes available is used in one of the parts.
-
 \subsection{POINTS}
 \includegraphics[width=1.0\textwidth]{Image_1}
 \subsection{LINE STRIP}
@@ -157,7 +156,18 @@ What we call a projection transformation and have used in transforming vertices 
 Because objects are not visible if they are farther away from the viewer then objects which are behind, or Depth Checking.
 \part{Question Eight: Lighting Geometry}
 \section{Question}
-\section{Answer}
+This question is about the geometry used to help compute the three kinds of shading: ambient, diffuse, and specular. When we computed shading, there were three main geometric components we used: vector from a point on a surface to the camera; vector from a point on a surface to the light source; vector normal to the surface. However, some of the shading types might use only some of these geometric components. Some might use none. This question asks you to tell for each geometric component, which kind of shading uses that component when being computed.
+\subsection{Notes}
+This part confuses me because there are only three shading methods to choose from I would want to just put all three for each one but I don't think I will.
+\subsection{Which of the three kinds of shading depend on the direction to the camera?}
+\subsection{Answer}
+Specular depends on the direction of the camera.
+\subsection{ Which of the three kinds of shading depend on the direction to the light source?}
+\subsection{Answer}
+Diffuse depends on the direction of the light source.
+\subsection{ Which of the three kinds of shading depend on the normal to the surface?}
+\subsection{Answer}
+This will be the Ambient Lighting
 \part{Question Nine: Texture Sampling Modes}
 \section{Question}
 \section{Answer}
