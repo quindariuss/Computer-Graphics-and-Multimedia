@@ -169,8 +169,16 @@ Diffuse depends on the direction of the light source.
 \subsection{Answer}
 This will be the Ambient Lighting
 \part{Question Nine: Texture Sampling Modes}
-\section{Question}
+There are various ways that texture samples are actually computed. This question asks about two different sampling modes.
+\subsection{ The constant GL NEAREST specifies a certain way of determining a sample value. Explain how a sample would be determined using GL NEAREST mode.}
 \section{Answer}
+A Sample will be determined by choosing the value that is nearest distance to the center of the pixel that is being textured.
+\subsection{ The constant GL LINEAR specifies a certain way of determining a sample value. Explain how a sample would be determined using GL LINEAR mode.}
+\section{Answer}
+The sample will be determined by getting the weighted average of the four texture elements that are closest to the center of the pixel being textured.
+\subsection{ Compare the GL NEAREST sampling mode with the GL LINEAR in two ways: which gives better visual results; which takes more time to compute.}
+\section{Answer}
+GL LINEAR is the slowest of the two but gives the better visual performance depending on the texture being sampled.
 \part{Question Ten}
 \section{Question}
 What feature when using images for textures in OpenGL makes use of reduced size images in areas where the texture image is larger than the area being covered?
