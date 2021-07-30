@@ -1,0 +1,69 @@
+\contentsline {part}{I\hspace {1em}Question One}{2}{}%
+\contentsline {section}{\numberline {0.1}Question}{3}{}%
+\contentsline {section}{\numberline {0.2}Answer}{3}{}%
+\contentsline {part}{II\hspace {1em}Question Two}{4}{}%
+\contentsline {section}{\numberline {0.3}Question}{5}{}%
+\contentsline {section}{\numberline {0.4}Answer}{5}{}%
+\contentsline {part}{III\hspace {1em}Question Three: Data Memory}{6}{}%
+\contentsline {section}{\numberline {0.5}Question}{7}{}%
+\contentsline {subsection}{\numberline {0.5.1} How many vertices will be used to represent each triangle?}{7}{}%
+\contentsline {subsection}{\numberline {0.5.2}Answer}{7}{}%
+\contentsline {subsection}{\numberline {0.5.3} Using the standard way we have represented vertex positions in our code examples, how many float values will be used to represent each vertex position? }{7}{}%
+\contentsline {subsection}{\numberline {0.5.4}Answer}{7}{}%
+\contentsline {subsection}{\numberline {0.5.5} How many float values in all will it take to represent all the vertex positions for the figure? }{7}{}%
+\contentsline {subsection}{\numberline {0.5.6}Answer}{7}{}%
+\contentsline {subsection}{\numberline {0.5.7} How many bytes will that take to store all this position data? }{7}{}%
+\contentsline {subsection}{\numberline {0.5.8}Answer}{7}{}%
+\contentsline {subsection}{\numberline {0.5.9} In the examples where colors were assigned to vertices, each color was represented by a cs4722::color object. How many bytes does it take to store the data (r, g, b, and a components) of a cs4722::color object?}{7}{}%
+\contentsline {subsection}{\numberline {0.5.10}Answer}{7}{}%
+\contentsline {subsection}{\numberline {0.5.11} How many bytes would it take to store all of the color data assigned to the vertices of this figure?}{8}{}%
+\contentsline {subsection}{\numberline {0.5.12}Answer}{8}{}%
+\contentsline {part}{IV\hspace {1em}Question Four: Pipeline}{9}{}%
+\contentsline {section}{\numberline {0.6}Question}{10}{}%
+\contentsline {subsection}{\numberline {0.6.1} For a single geometric primitive, determines the pixels that are covered by the primitive.}{10}{}%
+\contentsline {subsection}{\numberline {0.6.2}Answer}{10}{}%
+\contentsline {subsection}{\numberline {0.6.3} Subdivides shapes more complex than primitives into standard primitive shapes}{10}{}%
+\contentsline {subsection}{\numberline {0.6.4}Answer}{10}{}%
+\contentsline {subsection}{\numberline {0.6.5} For a single vertex, does some processing and outputs a vertex to the later stages}{10}{}%
+\contentsline {subsection}{\numberline {0.6.6}Answer}{10}{}%
+\contentsline {subsection}{\numberline {0.6.7} Takes one or more vertices and creates a geometric primitive from them}{10}{}%
+\contentsline {subsection}{\numberline {0.6.8}Answer}{10}{}%
+\contentsline {subsection}{\numberline {0.6.9} For a single pixel, does some processing and outputs a color for that pixel}{10}{}%
+\contentsline {subsection}{\numberline {0.6.10}Answer}{10}{}%
+\contentsline {part}{V\hspace {1em}Question Five: Drawing Modes}{11}{}%
+\contentsline {section}{\numberline {0.7}Question}{12}{}%
+\contentsline {subsection}{\numberline {0.7.1}POINTS}{12}{}%
+\contentsline {subsection}{\numberline {0.7.2}LINE STRIP}{13}{}%
+\contentsline {subsection}{\numberline {0.7.3}LINE LOOP}{14}{}%
+\contentsline {subsection}{\numberline {0.7.4}TRIANGLE STRIP}{15}{}%
+\contentsline {subsection}{\numberline {0.7.5}LINES}{16}{}%
+\contentsline {subsection}{\numberline {0.7.6}TRIANGLES}{17}{}%
+\contentsline {subsection}{\numberline {0.7.7}TRIANGLE FAN}{18}{}%
+\contentsline {part}{VI\hspace {1em}Question Six: Shading Language}{19}{}%
+\contentsline {section}{\numberline {0.8}Question}{20}{}%
+\contentsline {subsection}{\numberline {0.8.1} A vertex must be assigned to this variable}{20}{}%
+\contentsline {subsection}{\numberline {0.8.2}Answer}{20}{}%
+\contentsline {subsection}{\numberline {0.8.3} A value can optionally be assigned to this variable to set the size of graphic that is used to display a point.}{20}{}%
+\contentsline {section}{\numberline {0.9}Answer}{20}{}%
+\contentsline {part}{VII\hspace {1em}Question Seven: Projection Transformations}{21}{}%
+\contentsline {section}{\numberline {0.10}Question}{22}{}%
+\contentsline {section}{\numberline {0.11}Answer}{22}{}%
+\contentsline {part}{VIII\hspace {1em}Question Eight: Lighting Geometry}{23}{}%
+\contentsline {section}{\numberline {0.12}Question}{24}{}%
+\contentsline {subsection}{\numberline {0.12.1}Notes}{24}{}%
+\contentsline {subsection}{\numberline {0.12.2}Which of the three kinds of shading depend on the direction to the camera?}{24}{}%
+\contentsline {subsection}{\numberline {0.12.3}Answer}{24}{}%
+\contentsline {subsection}{\numberline {0.12.4} Which of the three kinds of shading depend on the direction to the light source?}{24}{}%
+\contentsline {subsection}{\numberline {0.12.5}Answer}{24}{}%
+\contentsline {subsection}{\numberline {0.12.6} Which of the three kinds of shading depend on the normal to the surface?}{24}{}%
+\contentsline {subsection}{\numberline {0.12.7}Answer}{24}{}%
+\contentsline {part}{IX\hspace {1em}Question Nine: Texture Sampling Modes}{25}{}%
+\contentsline {subsection}{\numberline {0.12.8} The constant GL NEAREST specifies a certain way of determining a sample value. Explain how a sample would be determined using GL NEAREST mode.}{26}{}%
+\contentsline {section}{\numberline {0.13}Answer}{26}{}%
+\contentsline {subsection}{\numberline {0.13.1} The constant GL LINEAR specifies a certain way of determining a sample value. Explain how a sample would be determined using GL LINEAR mode.}{26}{}%
+\contentsline {section}{\numberline {0.14}Answer}{26}{}%
+\contentsline {subsection}{\numberline {0.14.1} Compare the GL NEAREST sampling mode with the GL LINEAR in two ways: which gives better visual results; which takes more time to compute.}{26}{}%
+\contentsline {section}{\numberline {0.15}Answer}{26}{}%
+\contentsline {part}{X\hspace {1em}Question Ten}{27}{}%
+\contentsline {section}{\numberline {0.16}Question}{28}{}%
+\contentsline {section}{\numberline {0.17}Answer}{28}{}%
